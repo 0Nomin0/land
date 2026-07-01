@@ -1,0 +1,765 @@
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async AppLayout (app\(app)\layout.tsx:10:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '1166927857'
+}
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async LearnPage (app\(app)\learn\page.tsx:9:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '3185688051'
+}
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async AppLayout (app\(app)\layout.tsx:10:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '1166927857'
+}
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async LearnPage (app\(app)\learn\page.tsx:9:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '3185688051'
+}
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async AppLayout (app\(app)\layout.tsx:10:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '1166927857'
+}
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async LearnPage (app\(app)\learn\page.tsx:9:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '3185688051'
+}
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async AppLayout (app\(app)\layout.tsx:10:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '1166927857'
+}
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async LearnPage (app\(app)\learn\page.tsx:9:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '3185688051'
+}
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async AppLayout (app\(app)\layout.tsx:10:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '1166927857'
+}
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async LearnPage (app\(app)\learn\page.tsx:9:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '3185688051'
+}
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async AppLayout (app\(app)\layout.tsx:10:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '1166927857'
+}
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async LearnPage (app\(app)\learn\page.tsx:9:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '3185688051'
+}
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async AppLayout (app\(app)\layout.tsx:10:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '1166927857'
+}
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async LearnPage (app\(app)\learn\page.tsx:9:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '3185688051'
+}
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async AppLayout (app\(app)\layout.tsx:10:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '1166927857'
+}
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async LearnPage (app\(app)\learn\page.tsx:9:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '3185688051'
+}
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async AppLayout (app\(app)\layout.tsx:10:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '1166927857'
+}
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async LearnPage (app\(app)\learn\page.tsx:9:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '3185688051'
+}
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async AppLayout (app\(app)\layout.tsx:10:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '1166927857'
+}
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async LearnPage (app\(app)\learn\page.tsx:9:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '3185688051'
+}
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async AppLayout (app\(app)\layout.tsx:10:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '1445927986'
+}
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async LearnPage (app\(app)\learn\page.tsx:9:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '906450928'
+}
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async AppLayout (app\(app)\layout.tsx:10:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '1166927857'
+}
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async LearnPage (app\(app)\learn\page.tsx:9:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '3185688051'
+}
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async AppLayout (app\(app)\layout.tsx:10:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '1166927857'
+}
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async LearnPage (app\(app)\learn\page.tsx:9:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '3185688051'
+}
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async AppLayout (app\(app)\layout.tsx:10:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '1166927857'
+}
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async LearnPage (app\(app)\learn\page.tsx:9:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '3185688051'
+}
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async AppLayout (app\(app)\layout.tsx:10:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '1166927857'
+}
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async LearnPage (app\(app)\learn\page.tsx:9:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '3185688051'
+}
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async AppLayout (app\(app)\layout.tsx:10:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '1166927857'
+}
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async LearnPage (app\(app)\learn\page.tsx:9:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '3185688051'
+}
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async AppLayout (app\(app)\layout.tsx:10:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '1445927986'
+}
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async LearnPage (app\(app)\learn\page.tsx:9:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '906450928'
+}
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async AppLayout (app\(app)\layout.tsx:10:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '1166927857'
+}
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async LearnPage (app\(app)\learn\page.tsx:9:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '3185688051'
+}
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async AppLayout (app\(app)\layout.tsx:10:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '1445927986'
+}
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async LearnPage (app\(app)\learn\page.tsx:9:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '906450928'
+}
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async AppLayout (app\(app)\layout.tsx:10:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '1166927857'
+}
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async LearnPage (app\(app)\learn\page.tsx:9:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '3185688051'
+}
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async AppLayout (app\(app)\layout.tsx:10:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '1166927857'
+}
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async LearnPage (app\(app)\learn\page.tsx:9:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '3185688051'
+}
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async AppLayout (app\(app)\layout.tsx:10:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '1445927986'
+}
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async LearnPage (app\(app)\learn\page.tsx:9:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '906450928'
+}
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async AppLayout (app\(app)\layout.tsx:10:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '1166927857'
+}
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async LearnPage (app\(app)\learn\page.tsx:9:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '3185688051'
+}
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async AppLayout (app\(app)\layout.tsx:10:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '1166927857'
+}
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async LearnPage (app\(app)\learn\page.tsx:9:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '3185688051'
+}
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async AppLayout (app\(app)\layout.tsx:10:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '1166927857'
+}
+ ⨯ Error: no such column: u.is_banned
+    at getCurrentUser (lib\auth.ts:107:6)
+    at async LearnPage (app\(app)\learn\page.tsx:9:16)
+  105 |
+  106 |   const row = db
+> 107 |     .prepare(
+      |      ^
+  108 |       `SELECT u.id, u.email, u.is_banned, s.expires_at
+  109 |        FROM sessions s JOIN users u ON u.id = s.user_id
+  110 |        WHERE s.id = ?`, {
+  code: 'ERR_SQLITE_ERROR',
+  errcode: 1,
+  errstr: 'SQL logic error',
+  digest: '3185688051'
+}
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⨯ [TypeError: Cannot read properties of undefined (reading 'call')] {
+  digest: '1875747958'
+}
+[TypeError: Cannot read properties of undefined (reading 'call')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading 'call')]
+ ⨯ [TypeError: Cannot read properties of undefined (reading 'call')] {
+  page: '/learn'
+}
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.

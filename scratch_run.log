@@ -1,0 +1,226 @@
+   ▲ Next.js 15.5.19
+   - Local:        http://localhost:3000
+   - Network:      http://10.0.5.42:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 2.1s
+ ○ Compiling / ...
+ ✓ Compiled / in 967ms (604 modules)
+ GET / 200 in 1402ms
+ GET / 200 in 76ms
+ ✓ Compiled /login in 453ms (626 modules)
+ GET /login 200 in 618ms
+ ✓ Compiled /register in 235ms (628 modules)
+ GET /register 200 in 348ms
+ ✓ Compiled /api/auth/register in 289ms (648 modules)
+ POST /api/auth/register 200 in 501ms
+ ✓ Compiled /learn in 443ms (678 modules)
+ GET /learn 200 in 573ms
+ GET /learn 200 in 38ms
+ ✓ Compiled /onboarding in 293ms (688 modules)
+ GET /onboarding 200 in 387ms
+ GET /onboarding 200 in 28ms
+ ○ Compiling /api/ai/refine-topics ...
+ ✓ Compiled /api/ai/refine-topics in 711ms (912 modules)
+ POST /api/ai/refine-topics 200 in 2436ms
+ ✓ Compiled /api/onboarding in 289ms (914 modules)
+ POST /api/onboarding 200 in 385ms
+ GET /learn 200 in 117ms
+ GET /learn 200 in 44ms
+ ✓ Compiled /api/session/today in 379ms (919 modules)
+ GET /api/session/today 200 in 3694ms
+ GET /api/session/today 200 in 16ms
+ ✓ Compiled /api/words/know in 406ms (921 modules)
+ POST /api/words/know 200 in 466ms
+ POST /api/words/know 200 in 23ms
+ POST /api/words/know 200 in 24ms
+ POST /api/words/know 200 in 19ms
+ ✓ Compiled /api/review/answer in 403ms (923 modules)
+ POST /api/review/answer 200 in 474ms
+ ✓ Compiled /api/session/complete in 319ms (925 modules)
+ POST /api/session/complete 200 in 369ms
+ ○ Compiling /read ...
+ ✓ Compiled /read in 582ms (936 modules)
+ GET /read 200 in 759ms
+ ✓ Compiled /api/ai/generate-text in 421ms (938 modules)
+ POST /api/ai/generate-text 200 in 22683ms
+ ○ Compiling /read/[id] ...
+ ✓ Compiled /read/[id] in 611ms (944 modules)
+ GET /read/1 200 in 1356ms
+ GET /read/1 200 in 57ms
+ POST /api/ai/generate-text 200 in 3833ms
+ GET /read/2 200 in 43ms
+ GET /read/2 200 in 50ms
+ POST /api/ai/generate-text 200 in 4844ms
+ GET /read/3 200 in 49ms
+ GET /read/3 200 in 46ms
+ ○ Compiling /news ...
+ ✓ Compiled /news in 578ms (937 modules)
+ GET /news 200 in 709ms
+ ✓ Compiled /api/news in 376ms (939 modules)
+ POST /api/news 200 in 4795ms
+ GET /read/4 200 in 65ms
+ GET /read/4 200 in 43ms
+ GET /news 200 in 39ms
+ ✓ Compiled /words in 310ms (938 modules)
+ GET /words 200 in 407ms
+ GET /read 200 in 40ms
+ GET /words 200 in 32ms
+ ○ Compiling /dashboard ...
+ ✓ Compiled /dashboard in 533ms (934 modules)
+ GET /dashboard 200 in 643ms
+ ✓ Compiled /onboarding in 318ms (687 modules)
+ GET /onboarding 200 in 388ms
+ GET /read 200 in 47ms
+ ○ Compiling /review ...
+ ✓ Compiled /review in 534ms (940 modules)
+ GET /review 200 in 632ms
+ ✓ Compiled /learn in 224ms (693 modules)
+ GET /learn 200 in 306ms
+ ✓ Compiled /api/session/today in 272ms (695 modules)
+ GET /api/session/today 200 in 3525ms
+ GET /api/session/today 200 in 27ms
+ ✓ Compiled /api/words/know in 328ms (697 modules)
+ POST /api/words/know 200 in 394ms
+ POST /api/words/know 200 in 31ms
+ POST /api/words/know 200 in 32ms
+ POST /api/words/know 200 in 31ms
+ POST /api/words/know 200 in 58ms
+ ✓ Compiled /api/session/complete in 383ms (697 modules)
+ POST /api/session/complete 200 in 476ms
+ POST /api/session/complete 200 in 478ms
+ GET /words 200 in 92ms
+ GET /dashboard 200 in 45ms
+ GET /learn 200 in 46ms
+ GET /api/session/today 200 in 26ms
+ GET /api/session/today 200 in 26ms
+ GET /learn 200 in 31ms
+ GET /review 200 in 43ms
+ GET /read 200 in 45ms
+ GET /read/4 200 in 54ms
+ GET /learn 200 in 37ms
+ GET /api/session/today 200 in 26ms
+ GET /api/session/today 200 in 22ms
+ GET /review 200 in 30ms
+ GET /learn 200 in 33ms
+ GET /api/session/today 200 in 25ms
+ GET /api/session/today 200 in 29ms
+ GET /review 200 in 28ms
+ GET /learn 200 in 27ms
+ GET /api/session/today 200 in 18ms
+ GET /api/session/today 200 in 18ms
+ ✓ Compiled in 263ms (656 modules)
+ GET /learn 200 in 131ms
+ ✓ Compiled in 242ms (656 modules)
+ GET /learn 200 in 107ms
+ ✓ Compiled in 213ms (656 modules)
+ GET /learn 500 in 158ms
+ ✓ Compiled in 168ms (656 modules)
+ GET /learn 500 in 143ms
+ ✓ Compiled in 204ms (656 modules)
+ GET /learn 500 in 108ms
+ ✓ Compiled in 188ms (656 modules)
+ GET /learn 500 in 107ms
+ ✓ Compiled in 219ms (656 modules)
+ GET /learn 500 in 103ms
+ ✓ Compiled in 233ms (656 modules)
+ GET /learn 500 in 101ms
+ ✓ Compiled in 154ms (656 modules)
+ GET /learn 500 in 99ms
+ ✓ Compiled in 1253ms (270 modules)
+ GET /learn 500 in 129ms
+ ✓ Compiled in 176ms (270 modules)
+ GET /learn 500 in 124ms
+ ✓ Compiled in 166ms (270 modules)
+ GET /learn 500 in 145ms
+ ✓ Compiled in 263ms (912 modules)
+ ✓ Compiled in 191ms (270 modules)
+ GET /learn 500 in 393ms
+ ✓ Compiled in 513ms (926 modules)
+ ✓ Compiled in 167ms (270 modules)
+ GET /learn 500 in 342ms
+ ✓ Compiled in 307ms (926 modules)
+ ✓ Compiled in 167ms (270 modules)
+ ✓ Compiled in 207ms (270 modules)
+ GET /learn 500 in 313ms
+ ✓ Compiled in 155ms (270 modules)
+ GET /learn 500 in 121ms
+ ✓ Compiled in 128ms (270 modules)
+ GET /learn 500 in 64ms
+ ✓ Compiled in 760ms (926 modules)
+ GET /learn 500 in 672ms
+ ✓ Compiled in 827ms (926 modules)
+ GET /learn 500 in 778ms
+ ✓ Compiled in 159ms (270 modules)
+ GET /learn 500 in 215ms
+ ✓ Compiled in 293ms (926 modules)
+ ✓ Compiled in 174ms (270 modules)
+ ✓ Compiled in 178ms (270 modules)
+ GET /learn 500 in 276ms
+ ✓ Compiled in 175ms (270 modules)
+ ✓ Compiled in 269ms (271 modules)
+ GET /learn 500 in 264ms
+ ✓ Compiled in 776ms (928 modules)
+ GET /learn 500 in 694ms
+ ✓ Compiled in 295ms (271 modules)
+ ✓ Compiled in 138ms (271 modules)
+ GET /learn 500 in 269ms
+ ✓ Compiled in 169ms (271 modules)
+ ✓ Compiled in 524ms (928 modules)
+ GET /learn 500 in 457ms
+ ✓ Compiled in 817ms (928 modules)
+ GET /learn 500 in 706ms
+   Reload env: .env.local
+ ✓ Compiled in 658ms (928 modules)
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 1372ms (1261 modules)
+ GET /learn 500 in 2788ms
+ ○ Compiling /api/auth/login ...
+ ✓ Compiled /api/auth/login in 564ms (1280 modules)
+ POST /api/auth/login 200 in 804ms
+ GET /learn 307 in 155ms
+ ✓ Compiled /login in 357ms (876 modules)
+ GET /login 200 in 565ms
+ ✓ Compiled / in 287ms (878 modules)
+ GET / 200 in 411ms
+ POST /api/auth/login 401 in 198ms
+ POST /api/auth/login 200 in 82ms
+ POST /api/auth/login 200 in 81ms
+ ✓ Compiled /api/onboarding in 252ms (875 modules)
+ POST /api/onboarding 200 in 308ms
+ POST /api/auth/login 200 in 80ms
+ ✓ Compiled /api/ai/generate-batch in 295ms (1287 modules)
+ POST /api/ai/generate-batch 200 in 5559ms
+ POST /api/auth/login 200 in 208ms
+ ✓ Compiled /api/admin/accounts in 293ms (1287 modules)
+ GET /api/admin/accounts 200 in 336ms
+ POST /api/auth/login 200 in 94ms
+ GET /api/admin/accounts 403 in 16ms
+ ✓ Compiled in 451ms (424 modules)
+ ✓ Compiled in 600ms (1275 modules)
+ ✓ Compiled in 133ms (424 modules)
+ ✓ Compiled in 121ms (424 modules)
+ ✓ Compiled in 114ms (424 modules)
+ ✓ Compiled in 116ms (424 modules)
+ ✓ Compiled in 115ms (424 modules)
+ ✓ Compiled in 118ms (424 modules)
+ ○ Compiling /login ...
+ ✓ Compiled /login in 510ms (857 modules)
+ GET /login 200 in 755ms
+ GET /login 200 in 54ms
+ ✓ Compiled in 579ms (1275 modules)
+ ✓ Compiled /login in 236ms (857 modules)
+ GET /login 200 in 454ms
+ GET /login? 200 in 54ms
+ GET /login? 200 in 62ms
+ GET /login? 200 in 56ms
+ GET /login? 200 in 63ms
+ ✓ Compiled /api/auth/login in 265ms (876 modules)
+ POST /api/auth/login 200 in 449ms
+ ✓ Compiled in 297ms (1286 modules)
+ GET /login? 200 in 192ms
+ GET /login 200 in 56ms
+ GET /login 200 in 56ms
+ GET /login? 200 in 60ms
+[?25h

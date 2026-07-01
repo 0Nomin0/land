@@ -1,0 +1,191 @@
+   ▲ Next.js 15.5.19
+   - Local:        http://localhost:3000
+   - Network:      http://10.0.5.42:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 2.4s
+ ○ Compiling /review ...
+ ✓ Compiled /review in 1377ms (862 modules)
+ GET /review 200 in 1883ms
+ ✓ Compiled /read in 467ms (874 modules)
+ GET /read 200 in 616ms
+ ✓ Compiled /news in 309ms (882 modules)
+ GET /news 200 in 405ms
+ ✓ Compiled /learn in 347ms (898 modules)
+ GET /learn 200 in 430ms
+ ✓ Compiled /api/session/today in 290ms (918 modules)
+ GET /api/session/today 200 in 451ms
+ GET /api/session/today 200 in 454ms
+ ✓ Compiled /api/session/daily-words in 321ms (920 modules)
+ GET /api/session/daily-words 200 in 394ms
+ GET /api/session/daily-words 200 in 21ms
+ ✓ Compiled /admin in 374ms (928 modules)
+ GET /admin 200 in 483ms
+ ✓ Compiled /api/admin/accounts in 305ms (930 modules)
+ POST /api/admin/accounts 200 in 442ms
+ ✓ Compiled /api/auth/logout in 393ms (932 modules)
+ POST /api/auth/logout 200 in 454ms
+ ✓ Compiled / in 472ms (937 modules)
+ GET / 200 in 584ms
+ GET / 200 in 35ms
+ ✓ Compiled /register in 426ms (939 modules)
+ GET /register 200 in 521ms
+ ✓ Compiled /login in 420ms (947 modules)
+ GET /login 200 in 500ms
+ GET /login 200 in 29ms
+ ✓ Compiled /api/auth/login in 441ms (949 modules)
+ POST /api/auth/login 200 in 758ms
+ GET /learn 200 in 59ms
+ GET /learn 200 in 36ms
+ ○ Compiling /onboarding ...
+ ✓ Compiled /onboarding in 537ms (959 modules)
+ GET /onboarding 200 in 610ms
+ GET /onboarding 200 in 29ms
+ ✓ Compiled /api/ai/refine-topics in 473ms (962 modules)
+ POST /api/ai/refine-topics 200 in 18098ms
+ ✓ Compiled /api/onboarding in 322ms (945 modules)
+ POST /api/onboarding 200 in 402ms
+ GET /learn 200 in 80ms
+ GET /learn 200 in 37ms
+ ✓ Compiled /api/session/today in 216ms (691 modules)
+ GET /api/session/today 200 in 292ms
+ GET /api/session/today 200 in 16ms
+ ✓ Compiled /api/words/know in 487ms (949 modules)
+ POST /api/words/know 200 in 568ms
+ POST /api/words/know 200 in 20ms
+ POST /api/words/know 200 in 35ms
+ ✓ Compiled /api/review/answer in 446ms (924 modules)
+ POST /api/review/answer 200 in 542ms
+ POST /api/review/answer 200 in 18ms
+ POST /api/review/answer 200 in 29ms
+ ✓ Compiled /api/session/complete in 328ms (926 modules)
+ POST /api/session/complete 200 in 403ms
+ ✓ Compiled /api/session/daily-words in 244ms (672 modules)
+ GET /api/session/daily-words 200 in 299ms
+ GET /api/session/daily-words 200 in 27ms
+ ✓ Compiled /api/session/add-words in 333ms (930 modules)
+ POST /api/session/add-words 200 in 452ms
+ ✓ Compiled /api/session/today in 254ms (676 modules)
+ GET /api/session/today 200 in 321ms
+ ✓ Compiled /api/words/know in 263ms (678 modules)
+ POST /api/words/know 200 in 336ms
+ POST /api/words/know 200 in 25ms
+ POST /api/words/know 200 in 32ms
+ POST /api/words/know 200 in 29ms
+ POST /api/words/know 200 in 24ms
+ POST /api/words/know 200 in 34ms
+ POST /api/words/know 200 in 30ms
+ POST /api/words/know 200 in 26ms
+ POST /api/words/know 200 in 22ms
+ POST /api/words/know 200 in 27ms
+ POST /api/words/know 200 in 25ms
+ ✓ Compiled / in 483ms (682 modules)
+ GET / 200 in 621ms
+ GET /learn 200 in 41ms
+ GET /api/session/today 200 in 45ms
+ GET /api/session/today 200 in 25ms
+ POST /api/words/know 200 in 37ms
+ POST /api/words/know 200 in 24ms
+ POST /api/words/know 200 in 24ms
+ POST /api/words/know 200 in 21ms
+ POST /api/words/know 200 in 23ms
+ POST /api/words/know 200 in 25ms
+ POST /api/words/know 200 in 37ms
+ POST /api/words/know 200 in 25ms
+ POST /api/words/know 200 in 25ms
+ POST /api/words/know 200 in 28ms
+ POST /api/words/know 200 in 38ms
+ POST /api/words/know 200 in 29ms
+ POST /api/words/know 200 in 24ms
+ POST /api/words/know 200 in 28ms
+ POST /api/words/know 200 in 27ms
+ POST /api/words/know 200 in 37ms
+ POST /api/words/know 200 in 37ms
+ POST /api/words/know 200 in 28ms
+ POST /api/words/know 200 in 22ms
+ POST /api/words/know 200 in 31ms
+ POST /api/words/know 200 in 25ms
+ POST /api/words/know 200 in 21ms
+ POST /api/review/answer 200 in 34ms
+ POST /api/review/answer 200 in 17ms
+ POST /api/review/answer 200 in 18ms
+ POST /api/review/answer 200 in 29ms
+ POST /api/review/answer 200 in 27ms
+ POST /api/review/answer 200 in 26ms
+ POST /api/review/answer 200 in 27ms
+ POST /api/review/answer 200 in 26ms
+ POST /api/review/answer 200 in 18ms
+ POST /api/review/answer 200 in 20ms
+ POST /api/review/answer 200 in 26ms
+ POST /api/review/answer 200 in 25ms
+ POST /api/review/answer 200 in 27ms
+ POST /api/review/answer 200 in 28ms
+ POST /api/review/answer 200 in 28ms
+ POST /api/review/answer 200 in 28ms
+ POST /api/review/answer 200 in 26ms
+ POST /api/review/answer 200 in 17ms
+ POST /api/review/answer 200 in 17ms
+ POST /api/review/answer 200 in 32ms
+ POST /api/review/answer 200 in 26ms
+ POST /api/review/answer 200 in 27ms
+ POST /api/session/complete 200 in 43ms
+ GET /api/session/daily-words 200 in 40ms
+ GET /api/session/daily-words 200 in 31ms
+ ✓ Compiled in 341ms (653 modules)
+ GET /learn 200 in 143ms
+ ✓ Compiled in 1343ms (270 modules)
+ GET /learn 200 in 44ms
+ ✓ Compiled in 215ms (270 modules)
+ GET /learn 200 in 209ms
+ ✓ Compiled in 522ms (923 modules)
+ GET /learn 200 in 405ms
+ GET /learn 200 in 36ms
+ ✓ Compiled in 383ms (909 modules)
+ GET /learn 200 in 215ms
+ ✓ Compiled /api/session/today in 389ms (672 modules)
+ GET /api/session/today 200 in 566ms
+ GET /learn 200 in 215ms
+ ✓ Compiled /api/session/daily-words in 270ms (674 modules)
+ GET /api/session/daily-words 200 in 357ms
+ GET /api/session/daily-words 200 in 20ms
+ GET /learn 200 in 168ms
+ ✓ Compiled in 854ms (944 modules)
+ GET /learn 200 in 132ms
+ ✓ Compiled in 142ms (270 modules)
+ GET /learn 200 in 45ms
+ GET /learn 200 in 182ms
+ ✓ Compiled in 362ms (944 modules)
+ GET /learn 200 in 104ms
+ ✓ Compiled in 485ms (944 modules)
+ GET /learn 200 in 80ms
+ ✓ Compiled in 425ms (923 modules)
+ GET /learn 200 in 160ms
+ ✓ Compiled in 383ms (923 modules)
+ GET /learn 200 in 110ms
+ ✓ Compiled /api/session/add-words in 400ms (672 modules)
+ POST /api/session/add-words 200 in 527ms
+ GET /learn 200 in 199ms
+ ✓ Compiled /api/words/know in 235ms (674 modules)
+ POST /api/words/know 200 in 298ms
+ GET /learn 200 in 89ms
+ POST /api/words/know 200 in 31ms
+ POST /api/words/know 200 in 28ms
+ POST /api/words/know 200 in 36ms
+ POST /api/words/know 200 in 28ms
+ ✓ Compiled in 218ms (270 modules)
+ ✓ Compiled in 230ms (270 modules)
+ GET /learn 200 in 227ms
+ GET /learn 200 in 51ms
+ ✓ Compiled in 688ms (923 modules)
+ GET /learn 200 in 221ms
+ ✓ Compiled in 682ms (923 modules)
+ GET /learn 200 in 215ms
+ ✓ Compiled /api/session/today in 329ms (672 modules)
+ GET /api/session/today 200 in 636ms
+ ✓ Compiled in 529ms (942 modules)
+ GET /learn 200 in 167ms
+ ✓ Compiled in 632ms (942 modules)
+ GET /learn 200 in 96ms
+ ✓ Compiled in 741ms (923 modules)
+ GET /learn 200 in 246ms
