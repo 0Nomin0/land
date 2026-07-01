@@ -238,7 +238,7 @@ export default function LearnSession() {
       </div>
 
       <Comp
-        key={`${phase.key}-${knownVersion}`}
+        key={phase.key}
         cards={state.cards.filter((c) => !knownIds.current.has(c.word.id))}
         onGrade={recordGrade}
         onDone={nextPhase}
