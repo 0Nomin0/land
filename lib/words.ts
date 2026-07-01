@@ -21,17 +21,15 @@ function rowToWord(r: WordRow): Word {
   return { ...r, level: r.level as Level };
 }
 
-/** Слова из общего пула уровня, исключая заданные леммы. */
+/** Слова из общего пула (все уровни), исключая заданные леммы. */
 export function getLevelWords(
-  level: Level,
+  _level: Level,
   limit: number,
   excludeLemmas: string[] = [],
 ): Word[] {
   const rows = db
-    .prepare(
-      `SELECT * FROM words WHERE language = 'de' AND level = ? ORDER BY id`,
-    )
-    .all(level) as unknown as WordRow[];
+    .prepare(`SELECT * FROM words WHERE language = 'de' ORDER BY id`)
+    .all() as unknown as WordRow[];
 
   const ex = new Set(excludeLemmas.map((l) => l.toLowerCase()));
   return rows
